@@ -6,20 +6,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prateek's Personal Site</title>
+    <style>
+        .main {
+            padding: 15px;
+        }
+
+        .skills {
+            padding: 5px;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>Prateek Nayak</h1>
-    <img src="PRATEEK3.png" alt="Prateek Profile Picture" width="150px">
-    <p><em>Computer Science Engineering Student at <strong><a href="https://bit-bangalore.edu.in/" target="_blank">BIT, Bangalore</a></strong></em></p>
-    <p>I am an aspiring full time trader and a fund manager.</p>
+    <table>
+        <tr>
+            <td class="main">
+                <img src="PRATEEK3.png" alt="Prateek Profile Picture" width="200px">
+            </td>
+            <td class="main">
+                <h1>Prateek Nayak</h1>
+                <p><em>Computer Science Engineering Student at <strong><a href="https://bit-bangalore.edu.in/" target="_blank">BIT, Bangalore</a></strong></em></p>
+                <p>I am an aspiring full time trader and a fund manager.</p>
+            </td>
+        </tr>
+    </table>
+
     <hr>
     <h3>Education</h3>
-    <ul>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Grade</th>
+                <th>Year</th>
+                <th>Duration</th>
+                <th>Institute</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>1st-5th</td>
+                <td>2007-2012</td>
+                <td>5 years</td>
+                <td><a href="http://konkaneducation.org/?page_id=237" target="_blank">Saraswati Vidya Kendra, Kumta</a></td>
+                <!-- <td>Saraswati Vidya Kendra, Kumta</td> -->
+            </tr>
+            <tr>
+                <td>6th-12th</td>
+                <td>2012-2019</td>
+                <td>7 years</td>
+                <td><a href="https://navodaya.gov.in/nvs/nvs-school/Uttarakannada/en/about_us/About-JNV/" target="_blank">Jawahar Navodaya Vidyalaya, Malagi</a></td>
+                <!-- <td>Jawahar Navodaya Vidyalaya, Malagi</td> -->
+            </tr>
+            <tr>
+                <td>Engineering</td>
+                <td>2019-2023</td>
+                <td>4 years</td>
+                <td><a href="https://bit-bangalore.edu.in/" target="_blank">Bangalore Institute of Technology, Bangalore</a></td>
+                <!-- <td>Bangalore Institute of Technology, Bangalore</td> -->
+            </tr>
+        </tbody>
+    </table>
+    <!-- <ul>
         <li>1st-5th Grade: <a href="http://konkaneducation.org/?page_id=237" target="_blank">Saraswati Vidya Kendra, Kumta</a></li>
-        <li>6th-15th Grade: <a href="https://navodaya.gov.in/nvs/nvs-school/Uttarakannada/en/about_us/About-JNV/" target="_blank">Jawahar Navodaya Vidyalaya, Malagi</a></li>
+        <li>6th-12th Grade: <a href="https://navodaya.gov.in/nvs/nvs-school/Uttarakannada/en/about_us/About-JNV/" target="_blank">Jawahar Navodaya Vidyalaya, Malagi</a></li>
         <li>B.E.: <a href="https://bit-bangalore.edu.in/" target="_blank">Bangalore Institute of Technology, Bangalore</a></li>
-    </ul>
+    </ul> -->
+    <hr>
     <h3>Hobbies</h3>
     <ol>
         <!-- We can specify type of counters or specify starting point of counters using TYPE attribute of ol element -->
@@ -27,7 +79,31 @@
         <li>Trading options</li>
         <li>Solving puzzles</li>
     </ol>
+    <hr>
+    <h3>Skills</h3>
+    <table>
+        <tr>
+            <td class="skills">Python</td>
+            <td class="skills">⭐⭐⭐</td>
+        </tr>
+        <tr>
+            <td class="skills">Web Development</td>
+            <td class="skills">⭐⭐</td>
+        </tr>
+        <tr>
+            <td class="skills">Tax Planning</td>
+            <td class="skills">⭐⭐</td>
+        </tr>
+        <tr>
+            <td class="skills">Option Trading</td>
+            <td class="skills">⭐⭐⭐</td>
+        </tr>
+    </table>
+    <hr>
     <a href="contact.html" target="_blank">Contact Us</a>
+
+
+
 </body>
 
 </html>
