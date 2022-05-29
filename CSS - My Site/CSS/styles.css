@@ -45,8 +45,7 @@ h1 {
     background-color: yellow;
     width: 200px;
     height: 200px;
-    position: absolute;
+    position: fixed;
     top: 150px;
     left: 150px;
-    z-index: -1;
 }
